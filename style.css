@@ -5,17 +5,34 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-li {
-    text-align: center;
+li,
+p {
+    text-align: left;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
 }
 
 h2 {
     background-color: aqua;
     text-align: center;
+    margin: 20px 20px;
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;  
 }
+
+li.home{
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    padding: 20px;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
